@@ -140,7 +140,7 @@ button:hover{
 @media(max-width:500px) {
 
 nav a{
-    padding: 0 5%;
+    margin: 0 5%;
 }
 
 
@@ -155,7 +155,6 @@ nav a{
 
 button {
     width: 40%;
-    border-radius: 0;
 }
 
 .artists-container{
@@ -168,4 +167,27 @@ button {
     width: 60%;
     margin: 3% 0;
 }
+}
+
+@media(max-width:800px) {
+
+    nav a{
+        margin: 0 5%;
+    }
+
+    .title-container div{
+        width: 100%;
+    }
+
+    .artists-container{
+        flex-direction: column;
+        align-items: center;
+        width: 95%;
+    }
+
+    .artist{
+        width: 70%;
+    }
+
+
 }
